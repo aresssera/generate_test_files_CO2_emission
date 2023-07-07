@@ -1,0 +1,43 @@
+name: run getcsv.py
+
+on: 
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'branch name'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+        with:
+          ref: ${{ github.event.inputs.branch }}
+    
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.2
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' # install the python version needed
+          
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install pip install bs4
+          pip install pip install pandas
+          
+      - name: execute py script # run getcsv.py
+        run: python getcsv.py
+        
+      - name: commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+          git add .
+          git commit -m "run action from main branch"
+          git push origin ${{ github.event.inputs.branch }}
