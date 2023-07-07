@@ -120,7 +120,6 @@ for template in df['Template'].unique():
           element.text = row[att]
 
     # save modified XML file
-    l = l + 1
     tree.write('outputs/' + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
 
   i += 1
