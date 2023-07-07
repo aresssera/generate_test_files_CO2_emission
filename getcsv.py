@@ -17,7 +17,7 @@ def get_delimiter(file_path: str) -> str:
         delimiter = str(csv.Sniffer().sniff(csvfile.read()).delimiter)
         return delimiter
 
-fileName = 'combinations.csv'
+fileName = 'input/combinations.csv'
 df = pd.read_csv(fileName, sep = get_delimiter(fileName), on_bad_lines='skip')
 
 tmpNull = 12345
