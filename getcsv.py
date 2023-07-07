@@ -104,8 +104,6 @@ for template in df['Template'].unique():
   # all the attribute combinations which need to be with current template
   tmpDF = df[df.Template == template]
 
-  summe = summe + len(tmpDF)
-
   for index, row in tmpDF.iterrows():
 
     # load template
