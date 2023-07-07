@@ -26,11 +26,13 @@ df = df.replace(np.nan, '-')
 print("Are there any NaN values: ", df.isna().any().any())
 
 df.iloc[:, 5:10] = df.iloc[:, 5:10].astype(str)
-df
 
-"""---------------------------------------------------------------------------
+"""---------------------------------------------------------------------------"""
 
-Map values
+df['Info manueller Change in DB: vehicleNatureCode '].unique()
+
+"""Map values
+
 """
 
 dict_VCC = {'N1': '01', 'M1': '30'} # 35 and 38 need to be mapped
@@ -42,7 +44,21 @@ def createVIN(row):
 
   emptyElement = '$'
 
-  newVIN = 'BFE' + dict_VCC[row['#VehicleCategoryCode']] + dict_CHVC[row['ClassOfHybridVehicleCode']]
+  newVIN = 'BFE'
+
+  # check for N1
+  vcc = row['#VehicleCategoryCode']
+
+  if vcc == 'N1':
+
+    com = row['Info manueller Change in DB: vehicleNatureCode ']
+
+    if com  != '-':
+      newVIN = newVIN + com + dict_CHVC[row['ClassOfHybridVehicleCode']]
+    else:
+      newVIN = newVIN + dict_VCC[vcc] + dict_CHVC[row['ClassOfHybridVehicleCode']]
+  else:
+    newVIN = newVIN + dict_VCC[vcc] + dict_CHVC[row['ClassOfHybridVehicleCode']]
 
   fuelTypeCode = str(row['#FuelTypeCode'])
 
@@ -66,7 +82,6 @@ def createVIN(row):
   return newVIN
 
 df['#VIN'] = df.apply(lambda row: createVIN(row), axis=1)
-df
 
 for i in df['#VIN'].unique():
   if '-' in i:
@@ -89,6 +104,8 @@ for template in df['Template'].unique():
   # all the attribute combinations which need to be with current template
   tmpDF = df[df.Template == template]
 
+  summe = summe + len(tmpDF)
+
   for index, row in tmpDF.iterrows():
 
     # load template
@@ -105,8 +122,7 @@ for template in df['Template'].unique():
           element.text = row[att]
 
     # save modified XML file
-    if '-' in row['#VIN']:
-      print(row['#VIN'])
+    l = l + 1
     tree.write('outputs/' + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
 
   i += 1
