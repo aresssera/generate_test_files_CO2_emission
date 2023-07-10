@@ -1,64 +1,64 @@
 ,Template,#VIN,#VehicleCategoryCode,ClassOfHybridVehicleCode,#FuelTypeCode,#FuelCode1,#FuelCode2,#FuelCode3,FuelCode4,Info manueller Change in DB: vehicleNatureCode ,Bemerkung
-0,templates/Temp_NoHybrid_Bifuel.xml,BFE01empty1040$$,N1,Empty,B,10,40,-,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-1,templates/Temp_OVC_Bifuel.xml,BFE01vchev10400$,N1,OVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-2,templates/Temp_NOVC_Bifuel.xml,BFE01nchev10400$,N1,NOVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-3,templates/Temp_NoHybrid_Bifuel.xml,BFE38empty1040$$,N1,Empty,B,10,40,-,-,38,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-4,templates/Temp_OVC_Bifuel.xml,BFE38vchev10400$,N1,OVC-HEV,B,10,40,0,-,38,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-5,templates/Temp_NOVC_Bifuel.xml,BFE38nchev10400$,N1,NOVC-HEV,B,10,40,0,-,38,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-6,templates/Temp_NoHybrid_Bifuel.xml,BFE30empty1040$$,M1,Empty,B,10,40,-,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-7,templates/Temp_OVC_Bifuel.xml,BFE30vchev10400$,M1,OVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-8,templates/Temp_NOVC_Bifuel.xml,BFE30nchev10400$,M1,NOVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-9,templates/Temp_NoHybrid_Trifuel.xml,BFE01empty104044,N1,Empty,T,10,40,44,-,-,Tri-Fuel
-10,templates/Temp_OVC_Trifuel.xml,BFE01vchev104044,N1,OVC-HEV,T,10,40,44,0,-,Tri-Fuel
-11,templates/Temp_NOVC_Trifuel.xml,BFE01nchev104044,N1,NOVC-HEV,T,10,40,44,0,-,Tri-Fuel
-12,templates/Temp_NoHybrid_Trifuel.xml,BFE38empty104044,N1,Empty,T,10,40,44,-,38,Tri-Fuel
-13,templates/Temp_OVC_Trifuel.xml,BFE38vchev104044,N1,OVC-HEV,T,10,40,44,0,38,Tri-Fuel
-14,templates/Temp_NOVC_Trifuel.xml,BFE38nchev104044,N1,NOVC-HEV,T,10,40,44,0,38,Tri-Fuel
-15,templates/Temp_NoHybrid_Trifuel.xml,BFE30empty104044,M1,Empty,T,10,40,44,-,-,Tri-Fuel
-16,templates/Temp_OVC_Trifuel.xml,BFE30vchev104044,M1,OVC-HEV,T,10,40,44,0,-,Tri-Fuel
-17,templates/Temp_NOVC_Trifuel.xml,BFE30nchev104044,M1,NOVC-HEV,T,10,40,44,0,-,Tri-Fuel
-18,templates/Temp_NoHybrid_Monofuel.xml,BFE01empty10$$$$,N1,Empty,M,10,-,-,-,-,"Mono-Fuel, Benzin"
-19,templates/Temp_OVC_Monofuel.xml,BFE01vchev10$$$$,N1,OVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
-20,templates/Temp_NOVC_Monofuel.xml,BFE01nchev10$$$$,N1,NOVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
-21,templates/Temp_NoHybrid_Monofuel.xml,BFE38empty10$$$$,N1,Empty,M,10,-,-,-,38,"Mono-Fuel, Benzin"
-22,templates/Temp_OVC_Monofuel.xml,BFE38vchev10$$$$,N1,OVC-HEV,M,10,-,-,-,38,"Mono-Fuel, Benzin"
-23,templates/Temp_NOVC_Monofuel.xml,BFE38nchev10$$$$,N1,NOVC-HEV,M,10,-,-,-,38,"Mono-Fuel, Benzin"
-24,templates/Temp_NoHybrid_Monofuel.xml,BFE30empty10$$$$,M1,Empty,M,10,-,-,-,-,"Mono-Fuel, Benzin"
-25,templates/Temp_OVC_Monofuel.xml,BFE30vchev10$$$$,M1,OVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
-26,templates/Temp_NOVC_Monofuel.xml,BFE30nchev10$$$$,M1,NOVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
-27,templates/Temp_OVC-FCHV.xml,BFE01cfchv50$$$$,N1,OVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
-28,templates/Temp_NOVC-FCHV.xml,BFE01nfchv50$$$$,N1,NOVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
-29,templates/Temp_OVC-FCHV.xml,BFE38cfchv50$$$$,N1,OVC-FCHV,M,50,-,-,0,38,"Wasserstoff / Elektrisch, tstof X"
-30,templates/Temp_NOVC-FCHV.xml,BFE38nfchv50$$$$,N1,NOVC-FCHV,M,50,-,-,0,38,"Wasserstoff / Elektrisch, tstof X"
-31,templates/Temp_OVC-FCHV.xml,BFE30cfchv50$$$$,M1,OVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
-32,templates/Temp_NOVC-FCHV.xml,BFE30nfchv50$$$$,M1,NOVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
-33,templates/Temp_REINELEKTRISCH_E.xml,BFE01empty0$$$$$,N1,Empty,-,0,-,-,-,-,"Rein Elektrisch, tstof E"
-34,templates/Temp_REINELEKTRISCH_E.xml,BFE38empty0$$$$$,N1,Empty,-,0,-,-,-,38,"Rein Elektrisch, tstof E"
-35,templates/Temp_REINELEKTRISCH_E.xml,BFE30empty0$$$$$,M1,Empty,-,0,-,-,-,-,"Rein Elektrisch, tstof E"
-36,templates/Temp_NoHybrid_Bifuel.xml,BFE01empty1040$$,N1,Empty,D,10,40,-,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-37,templates/Temp_OVC_Bifuel.xml,BFE01vchev10400$,N1,OVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-38,templates/Temp_NOVC_Bifuel.xml,BFE01nchev10400$,N1,NOVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-39,templates/Temp_NoHybrid_Bifuel.xml,BFE38empty1040$$,N1,Empty,D,10,40,-,-,38,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-40,templates/Temp_OVC_Bifuel.xml,BFE38vchev10400$,N1,OVC-HEV,D,10,40,0,-,38,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-41,templates/Temp_NOVC_Bifuel.xml,BFE38nchev10400$,N1,NOVC-HEV,D,10,40,0,-,38,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-42,templates/Temp_NoHybrid_Bifuel.xml,BFE30empty1040$$,M1,Empty,D,10,40,-,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-43,templates/Temp_OVC_Bifuel.xml,BFE30vchev10400$,M1,OVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-44,templates/Temp_NOVC_Bifuel.xml,BFE30nchev10400$,M1,NOVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
-45,templates/Temp_NoHybrid_Monofuel.xml,BFE01empty40$$$$,N1,Empty,M,40,-,-,-,-,Erdgas (CNG) tstof N
-46,templates/Temp_OVC_Monofuel.xml,BFE01vchev40$$$$,N1,OVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
-47,templates/Temp_NOVC_Monofuel.xml,BFE01nchev40$$$$,N1,NOVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
-48,templates/Temp_NoHybrid_Monofuel.xml,BFE38empty40$$$$,N1,Empty,M,40,-,-,-,38,Erdgas (CNG) tstof N
-49,templates/Temp_OVC_Monofuel.xml,BFE38vchev40$$$$,N1,OVC-HEV,M,40,-,-,-,38,Erdgas (CNG) tstof N
-50,templates/Temp_NOVC_Monofuel.xml,BFE38nchev40$$$$,N1,NOVC-HEV,M,40,-,-,-,38,Erdgas (CNG) tstof N
-51,templates/Temp_NoHybrid_Monofuel.xml,BFE30empty40$$$$,M1,Empty,M,40,-,-,-,-,Erdgas (CNG) tstof N
-52,templates/Temp_OVC_Monofuel.xml,BFE30vchev40$$$$,M1,OVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
-53,templates/Temp_NOVC_Monofuel.xml,BFE30nchev40$$$$,M1,NOVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
-54,templates/Temp_Temp_WASSERSTOFF_W.xml,BFE01empty50$$$$,N1,Empty,M,50,-,-,-,-,Reiner Wasserstoff tstof W
-55,templates/Temp_Temp_WASSERSTOFF_W.xml,BFE38empty50$$$$,N1,Empty,M,50,-,-,-,38,Reiner Wasserstoff tstof W
-56,templates/Temp_Temp_WASSERSTOFF_W.xml,BFE30empty50$$$$,M1,Empty,M,50,-,-,-,-,Reiner Wasserstoff tstof W
-57,templates/Temp_OVC_Monofuel.xml,BFE01vchev20$$0$,N1,OVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
-58,templates/Temp_NOVC_Monofuel.xml,BFE01nchev20$$0$,N1,NOVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
-59,templates/Temp_OVC_Monofuel.xml,BFE38vchev20$$0$,N1,OVC-HEV,M,20,-,0,-,38,"Mono-Fuel, Diesel/ elektrisch, tstof F"
-60,templates/Temp_NOVC_Monofuel.xml,BFE38nchev20$$0$,N1,NOVC-HEV,M,20,-,0,-,38,"Mono-Fuel, Diesel/ elektrisch, tstof F"
-61,templates/Temp_OVC_Monofuel.xml,BFE30vchev20$$0$,M1,OVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
-62,templates/Temp_NOVC_Monofuel.xml,BFE30nchev20$$0$,M1,NOVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
+0,templates/Temp_NoHybrid_Bifuel.xml,BFE01emptyB1040$$,N1,Empty,B,10,40,-,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+1,templates/Temp_OVC_Bifuel.xml,BFE01vchevB10400$,N1,OVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+2,templates/Temp_NOVC_Bifuel.xml,BFE01nchevB10400$,N1,NOVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+3,templates/Temp_NoHybrid_Bifuel.xml,BFE38emptyB1040$$,N1,Empty,B,10,40,-,-,38,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+4,templates/Temp_OVC_Bifuel.xml,BFE38vchevB10400$,N1,OVC-HEV,B,10,40,0,-,38,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+5,templates/Temp_NOVC_Bifuel.xml,BFE38nchevB10400$,N1,NOVC-HEV,B,10,40,0,-,38,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+6,templates/Temp_NoHybrid_Bifuel.xml,BFE30emptyB1040$$,M1,Empty,B,10,40,-,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+7,templates/Temp_OVC_Bifuel.xml,BFE30vchevB10400$,M1,OVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+8,templates/Temp_NOVC_Bifuel.xml,BFE30nchevB10400$,M1,NOVC-HEV,B,10,40,0,-,-,"BI-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+9,templates/Temp_NoHybrid_Trifuel.xml,BFE01emptyT104044,N1,Empty,T,10,40,44,-,-,Tri-Fuel
+10,templates/Temp_OVC_Trifuel.xml,BFE01vchevT104044,N1,OVC-HEV,T,10,40,44,0,-,Tri-Fuel
+11,templates/Temp_NOVC_Trifuel.xml,BFE01nchevT104044,N1,NOVC-HEV,T,10,40,44,0,-,Tri-Fuel
+12,templates/Temp_NoHybrid_Trifuel.xml,BFE38emptyT104044,N1,Empty,T,10,40,44,-,38,Tri-Fuel
+13,templates/Temp_OVC_Trifuel.xml,BFE38vchevT104044,N1,OVC-HEV,T,10,40,44,0,38,Tri-Fuel
+14,templates/Temp_NOVC_Trifuel.xml,BFE38nchevT104044,N1,NOVC-HEV,T,10,40,44,0,38,Tri-Fuel
+15,templates/Temp_NoHybrid_Trifuel.xml,BFE30emptyT104044,M1,Empty,T,10,40,44,-,-,Tri-Fuel
+16,templates/Temp_OVC_Trifuel.xml,BFE30vchevT104044,M1,OVC-HEV,T,10,40,44,0,-,Tri-Fuel
+17,templates/Temp_NOVC_Trifuel.xml,BFE30nchevT104044,M1,NOVC-HEV,T,10,40,44,0,-,Tri-Fuel
+18,templates/Temp_NoHybrid_Monofuel.xml,BFE01emptyM10$$$$,N1,Empty,M,10,-,-,-,-,"Mono-Fuel, Benzin"
+19,templates/Temp_OVC_Monofuel.xml,BFE01vchevM10$$$$,N1,OVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
+20,templates/Temp_NOVC_Monofuel.xml,BFE01nchevM10$$$$,N1,NOVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
+21,templates/Temp_NoHybrid_Monofuel.xml,BFE38emptyM10$$$$,N1,Empty,M,10,-,-,-,38,"Mono-Fuel, Benzin"
+22,templates/Temp_OVC_Monofuel.xml,BFE38vchevM10$$$$,N1,OVC-HEV,M,10,-,-,-,38,"Mono-Fuel, Benzin"
+23,templates/Temp_NOVC_Monofuel.xml,BFE38nchevM10$$$$,N1,NOVC-HEV,M,10,-,-,-,38,"Mono-Fuel, Benzin"
+24,templates/Temp_NoHybrid_Monofuel.xml,BFE30emptyM10$$$$,M1,Empty,M,10,-,-,-,-,"Mono-Fuel, Benzin"
+25,templates/Temp_OVC_Monofuel.xml,BFE30vchevM10$$$$,M1,OVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
+26,templates/Temp_NOVC_Monofuel.xml,BFE30nchevM10$$$$,M1,NOVC-HEV,M,10,-,-,-,-,"Mono-Fuel, Benzin"
+27,templates/Temp_OVC-FCHV.xml,BFE01cfchvM50$$$$,N1,OVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
+28,templates/Temp_NOVC-FCHV.xml,BFE01nfchvM50$$$$,N1,NOVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
+29,templates/Temp_OVC-FCHV.xml,BFE38cfchvM50$$$$,N1,OVC-FCHV,M,50,-,-,0,38,"Wasserstoff / Elektrisch, tstof X"
+30,templates/Temp_NOVC-FCHV.xml,BFE38nfchvM50$$$$,N1,NOVC-FCHV,M,50,-,-,0,38,"Wasserstoff / Elektrisch, tstof X"
+31,templates/Temp_OVC-FCHV.xml,BFE30cfchvM50$$$$,M1,OVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
+32,templates/Temp_NOVC-FCHV.xml,BFE30nfchvM50$$$$,M1,NOVC-FCHV,M,50,-,-,0,-,"Wasserstoff / Elektrisch, tstof X"
+33,templates/Temp_REINELEKTRISCH_E.xml,BFE01empty$0$$$$$,N1,Empty,-,0,-,-,-,-,"Rein Elektrisch, tstof E"
+34,templates/Temp_REINELEKTRISCH_E.xml,BFE38empty$0$$$$$,N1,Empty,-,0,-,-,-,38,"Rein Elektrisch, tstof E"
+35,templates/Temp_REINELEKTRISCH_E.xml,BFE30empty$0$$$$$,M1,Empty,-,0,-,-,-,-,"Rein Elektrisch, tstof E"
+36,templates/Temp_NoHybrid_Bifuel.xml,BFE01emptyD1040$$,N1,Empty,D,10,40,-,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+37,templates/Temp_OVC_Bifuel.xml,BFE01vchevD10400$,N1,OVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+38,templates/Temp_NOVC_Bifuel.xml,BFE01nchevD10400$,N1,NOVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+39,templates/Temp_NoHybrid_Bifuel.xml,BFE38emptyD1040$$,N1,Empty,D,10,40,-,-,38,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+40,templates/Temp_OVC_Bifuel.xml,BFE38vchevD10400$,N1,OVC-HEV,D,10,40,0,-,38,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+41,templates/Temp_NOVC_Bifuel.xml,BFE38nchevD10400$,N1,NOVC-HEV,D,10,40,0,-,38,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+42,templates/Temp_NoHybrid_Bifuel.xml,BFE30emptyD1040$$,M1,Empty,D,10,40,-,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+43,templates/Temp_OVC_Bifuel.xml,BFE30vchevD10400$,M1,OVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+44,templates/Temp_NOVC_Bifuel.xml,BFE30nchevD10400$,M1,NOVC-HEV,D,10,40,0,-,-,"Dual-Fuel, tstof Y, Erdgas (CNG) / Benzin"
+45,templates/Temp_NoHybrid_Monofuel.xml,BFE01emptyM40$$$$,N1,Empty,M,40,-,-,-,-,Erdgas (CNG) tstof N
+46,templates/Temp_OVC_Monofuel.xml,BFE01vchevM40$$$$,N1,OVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
+47,templates/Temp_NOVC_Monofuel.xml,BFE01nchevM40$$$$,N1,NOVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
+48,templates/Temp_NoHybrid_Monofuel.xml,BFE38emptyM40$$$$,N1,Empty,M,40,-,-,-,38,Erdgas (CNG) tstof N
+49,templates/Temp_OVC_Monofuel.xml,BFE38vchevM40$$$$,N1,OVC-HEV,M,40,-,-,-,38,Erdgas (CNG) tstof N
+50,templates/Temp_NOVC_Monofuel.xml,BFE38nchevM40$$$$,N1,NOVC-HEV,M,40,-,-,-,38,Erdgas (CNG) tstof N
+51,templates/Temp_NoHybrid_Monofuel.xml,BFE30emptyM40$$$$,M1,Empty,M,40,-,-,-,-,Erdgas (CNG) tstof N
+52,templates/Temp_OVC_Monofuel.xml,BFE30vchevM40$$$$,M1,OVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
+53,templates/Temp_NOVC_Monofuel.xml,BFE30nchevM40$$$$,M1,NOVC-HEV,M,40,-,-,-,-,Erdgas (CNG) tstof N
+54,templates/Temp_Temp_WASSERSTOFF_W.xml,BFE01emptyM50$$$$,N1,Empty,M,50,-,-,-,-,Reiner Wasserstoff tstof W
+55,templates/Temp_Temp_WASSERSTOFF_W.xml,BFE38emptyM50$$$$,N1,Empty,M,50,-,-,-,38,Reiner Wasserstoff tstof W
+56,templates/Temp_Temp_WASSERSTOFF_W.xml,BFE30emptyM50$$$$,M1,Empty,M,50,-,-,-,-,Reiner Wasserstoff tstof W
+57,templates/Temp_OVC_Monofuel.xml,BFE01vchevM20$$0$,N1,OVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
+58,templates/Temp_NOVC_Monofuel.xml,BFE01nchevM20$$0$,N1,NOVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
+59,templates/Temp_OVC_Monofuel.xml,BFE38vchevM20$$0$,N1,OVC-HEV,M,20,-,0,-,38,"Mono-Fuel, Diesel/ elektrisch, tstof F"
+60,templates/Temp_NOVC_Monofuel.xml,BFE38nchevM20$$0$,N1,NOVC-HEV,M,20,-,0,-,38,"Mono-Fuel, Diesel/ elektrisch, tstof F"
+61,templates/Temp_OVC_Monofuel.xml,BFE30vchevM20$$0$,M1,OVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
+62,templates/Temp_NOVC_Monofuel.xml,BFE30nchevM20$$0$,M1,NOVC-HEV,M,20,-,0,-,-,"Mono-Fuel, Diesel/ elektrisch, tstof F"
