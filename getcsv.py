@@ -54,18 +54,20 @@ def createVIN(row):
     com = row['Info manueller Change in DB: vehicleNatureCode ']
 
     if com  != '-':
-      newVIN = newVIN + com + dict_CHVC[row['ClassOfHybridVehicleCode']]
+      newVIN = newVIN + com
     else:
-      newVIN = newVIN + dict_VCC[vcc] + dict_CHVC[row['ClassOfHybridVehicleCode']]
+      newVIN = newVIN + dict_VCC[vcc]
   else:
-    newVIN = newVIN + dict_VCC[vcc] + dict_CHVC[row['ClassOfHybridVehicleCode']]
+    newVIN = newVIN + dict_VCC[vcc]
 
-  fuelTypeCode = str(row['#FuelTypeCode'])
+  newVIN = newVIN + dict_CHVC[row['ClassOfHybridVehicleCode']]
+
+  fuelTypeCode = row['#FuelTypeCode']
 
   if fuelTypeCode == '-':
-    newVin = newVIN + emptyElement
+    newVIN = newVIN + emptyElement
   else:
-    newVin = newVIN + fuelTypeCode
+    newVIN = newVIN + fuelTypeCode
 
   for col in ['#FuelCode1','#FuelCode2', '#FuelCode3']:
 
@@ -94,7 +96,7 @@ print(df.head())
 df.to_csv('combinations_modified.csv')
 
 valuesToReplace = [col for col in df.columns if col.startswith('#')]
-valuesToReplace
+print("valuesToReplace = ", valuesToReplace)
 
 i = 1
 for template in df['Template'].unique():
