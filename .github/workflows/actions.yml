@@ -32,7 +32,7 @@ jobs:
           pip install pip install pandas
           
       - name: execute py script # run getcsv.py
-        run: python getcsv.py
+        run: python createAllFiles.py
         
       - name: commit and push changes
         run: |
