@@ -6,6 +6,9 @@ import csv
 fileName = 'input/allPossibleCombinations.csv'
 df = pd.read_csv(fileName)
 
+# all attributes which must be replaced
+valuesToReplace = [col for col in df.columns if col.startswith('#')]
+
 i = 1
 for template in df['Template'].unique():
 
