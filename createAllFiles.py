@@ -44,6 +44,6 @@ for template in df['Template'].unique():
     else:
       folder = 'outputs3/'
 
-    tree.write(folder + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
+    tree.write('outputs/' + folder + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
 
   i += 1
