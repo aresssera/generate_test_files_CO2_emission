@@ -37,12 +37,16 @@ for template in df['Template'].unique():
 
     # save modified XML file
     folder = ''
-    if i < 1000:
+    limit = 800
+    if i < limit:
       folder = 'outputs1/'  
-    elif i < 2000:
+    elif i < limit*2:
       folder = 'outputs2/'
-    else:
+    elif i < limit*3:
       folder = 'outputs3/'
+    else:
+      folder = 'outputs4/'
+
     tree.write('outputs/' + folder + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
 
     i += 1
