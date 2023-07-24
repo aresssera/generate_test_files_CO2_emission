@@ -5,6 +5,9 @@ import csv
 
 fileName = 'input/allPossibleCombinations.csv'
 df = pd.read_csv(fileName)
+df = df.astype({"#FuelCode1": str}, errors='raise')
+df = df.astype({"#FuelCode2": str}, errors='raise')
+df = df.astype({"#FuelCode3": str}, errors='raise')
 
 # all attributes which must be replaced
 valuesToReplace = [col for col in df.columns if col.startswith('#')]
