@@ -35,15 +35,14 @@ for template in df['Template'].unique():
           #  print("empty")
           element.text = row[att]
 
-   # save modified XML file
-  folder = ''
-  if i < 1000:
-    folder = 'outputs1/'
-  elif i < 2000:
-    folder = 'outputs2/'
-  else:
-    folder = 'outputs3/'
-    
-  tree.write('outputs/' + folder + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
+    # save modified XML file
+    folder = ''
+    if i < 1000:
+      folder = 'outputs1/'  
+    elif i < 2000:
+      folder = 'outputs2/'
+    else:
+      folder = 'outputs3/'
+    tree.write('outputs/' + folder + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
 
-  i += 1
+    i += 1
