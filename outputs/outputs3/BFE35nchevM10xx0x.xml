@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<InitialVehicleInformation xmlns:ns0="http://www.w3.org/2000/09/xmldsig#">
+	<Header>
+		<IVIReferenceId>eb9952c8-b4ca-48d7-8fa3-80151687c698</IVIReferenceId>
+		<VersionNumberXsd>1.6</VersionNumberXsd>
+	</Header>
+	<Body>
+		<CocDataGroup>
+			<VehicleIdentificationNumber>BFE35nchevM10xx0x</VehicleIdentificationNumber>
+			<StageOfCompletionCode>C</StageOfCompletionCode>
+			<TypeApprovalTypeCode>EC</TypeApprovalTypeCode>
+			<Type>CD</Type>
+			<Variant>ACDPBAX0</Variant>
+			<Version>FD7FD7CW005N4BISON1VL1BVR2A00</Version>
+			<VehicleCategoryCode>N1</VehicleCategoryCode>
+			<LocOfTheStatutoryPlatesCode>C0</LocOfTheStatutoryPlatesCode>
+			<MethodOfAttachmStatPlatesCode>A1</MethodOfAttachmStatPlatesCode>
+			<LocationOfTheVinCode>A0</LocationOfTheVinCode>
+			<TypeApprovalNumber>e1*2007/46*2014*22</TypeApprovalNumber>
+			<TypeApprovalDateOfIssue>2023-02-10</TypeApprovalDateOfIssue>
+			<RightLeftHandTrafficCode>R</RightLeftHandTrafficCode>
+			<MetricImperialSpeedometerCode>M</MetricImperialSpeedometerCode>
+			<NumberOfAxles>2</NumberOfAxles>
+			<NumberOfWheels>4</NumberOfWheels>
+			<NumberOfPoweredAxles>1</NumberOfPoweredAxles>
+			<Wheelbase>2619</Wheelbase>
+			<Length>4286</Length>
+			<Width>1789</Width>
+			<Height>1455</Height>
+			<MassOfTheVehicleInRunningOrder>1349</MassOfTheVehicleInRunningOrder>
+			<ActualMassOfTheVehicle>1379</ActualMassOfTheVehicle>
+			<TechnPermMaxLadenMass>1840</TechnPermMaxLadenMass>
+			<TechnPermMaxMassCombination>3240</TechnPermMaxMassCombination>
+			<PrimaryColourCode>1</PrimaryColourCode>
+			<NumberOfDoors>5</NumberOfDoors>
+			<ConfigurationOfDoors>2L, 2R, 1RE</ConfigurationOfDoors>
+			<NrOfSeatingPositions>5</NrOfSeatingPositions>
+			<Remarks>NO.30 (AxleTrack) A1 max 1550##NO.30 (AxleTrack) A2 max 1519###NO 16.2. (TechnicallyPermMassAxle): mit Anhänger Achse 2:+75 kg;##</Remarks>
+			<OdometerUnitCode>K</OdometerUnitCode>
+			<IntendedCountryOfRegistrCode>CH</IntendedCountryOfRegistrCode>
+			<VersionCoc>1</VersionCoc>
+			<VersionDateIVI>2023-04-06T00:00:00.000+02:00</VersionDateIVI>
+			<VehicleFittedWithEcoInnovInd>N</VehicleFittedWithEcoInnovInd>
+			<FuelTypeCode>M</FuelTypeCode>
+			<OffVehicleChargingVehInd>N</OffVehicleChargingVehInd>
+			<PureElectricVehIndicator>N</PureElectricVehIndicator>
+			<HybridVehIndicator>Y</HybridVehIndicator>
+			<ClassOfHybridVehicleCode>NOVC-HEV</ClassOfHybridVehicleCode>
+			<AutomatedVehCode>NON</AutomatedVehCode>
+			<DateOfManufactureVeh>2023-04-06</DateOfManufactureVeh>
+			<SigningAuthorityTable>
+				<SigningAuthorityGroup>
+					<NameOfSigner>ppa. Dr. Clemens Kadow</NameOfSigner>
+					<PositionOfSigner>Leiter Technische Konformität</PositionOfSigner>
+					<PlaceOfSignature>Wolfsburg</PlaceOfSignature>
+					<DateOfSignature>2023-04-06</DateOfSignature>
+				</SigningAuthorityGroup>
+				<SigningAuthorityGroup>
+					<NameOfSigner>ppa. Christiane Engel</NameOfSigner>
+					<PositionOfSigner>Leiterin Qualitätssicherung</PositionOfSigner>
+					<PlaceOfSignature>Wolfsburg</PlaceOfSignature>
+					<DateOfSignature>2023-04-06</DateOfSignature>
+				</SigningAuthorityGroup>
+			</SigningAuthorityTable>
+			<GearGroup>
+				<GearboxTypeCode>A</GearboxTypeCode>
+			</GearGroup>
+			<MakeTable>
+				<MakeGroup>
+					<Make>VOLKSWAGEN, VW</Make>
+				</MakeGroup>
+			</MakeTable>
+			<CommercialNameTable>
+				<CommercialNameGroup>
+					<CommercialName>GOLF</CommercialName>
+				</CommercialNameGroup>
+			</CommercialNameTable>
+			<StageNrOfManufacturingTable>
+				<StageNrOfManufacturingGroup>
+					<AddressTable>
+						<AddressGroup>
+							<AddressTypeCode>PSM</AddressTypeCode>
+							<Name>Volkswagen AG</Name>
+							<AddressLine1>Berliner Ring 2</AddressLine1>
+							<AddressLine3>38440</AddressLine3>
+							<PlaceOfResidence>Wolfsburg</PlaceOfResidence>
+							<CountryOfResidence>Deutschland</CountryOfResidence>
+						</AddressGroup>
+					</AddressTable>
+				</StageNrOfManufacturingGroup>
+			</StageNrOfManufacturingTable>
+			<BodyworkTable>
+				<BodyworkGroup>
+					<CodeForBodywork>AC</CodeForBodywork>
+				</BodyworkGroup>
+			</BodyworkTable>
+			<AxleTable>
+				<AxleGroup>
+					<AxleNumber>1</AxleNumber>
+					<PoweredAxleInd>Y</PoweredAxleInd>
+					<AxleTrack>1534</AxleTrack>
+					<AxleSpacing>2619</AxleSpacing>
+					<TechnicallyPermMassAxle>1000</TechnicallyPermMassAxle>
+					<TyreAxleTable>
+						<TyreAxleGroup>
+							<TyreNumber>1</TyreNumber>
+							<TyreSize>205/50 R17</TyreSize>
+							<LoadCapacityIndexSingleWheel>93</LoadCapacityIndexSingleWheel>
+							<SpeedCategorySymbol>H</SpeedCategorySymbol>
+							<TypeOfTyre>XLMS</TypeOfTyre>
+							<RimSizeIncludingOffSet>6,5JX17 ET46</RimSizeIncludingOffSet>
+							<TyreMaxSpeedIndicator>N</TyreMaxSpeedIndicator>
+							<TyreRemarks>205/50 R17 93H XL M+S</TyreRemarks>
+							<ProductionTyreRimVehInd>N</ProductionTyreRimVehInd>
+						</TyreAxleGroup>
+					</TyreAxleTable>
+				</AxleGroup>
+				<AxleGroup>
+					<AxleNumber>2</AxleNumber>
+					<PoweredAxleInd>N</PoweredAxleInd>
+					<AxleTrack>1503</AxleTrack>
+					<TechnicallyPermMassAxle>890</TechnicallyPermMassAxle>
+					<TyreAxleTable>
+						<TyreAxleGroup>
+							<TyreNumber>1</TyreNumber>
+							<TyreSize>205/50 R17</TyreSize>
+							<LoadCapacityIndexSingleWheel>93</LoadCapacityIndexSingleWheel>
+							<SpeedCategorySymbol>H</SpeedCategorySymbol>
+							<TypeOfTyre>XLMS</TypeOfTyre>
+							<RimSizeIncludingOffSet>6,5JX17 ET46</RimSizeIncludingOffSet>
+							<TyreMaxSpeedIndicator>N</TyreMaxSpeedIndicator>
+							<TyreRemarks>205/50 R17 93H XL M+S</TyreRemarks>
+							<ProductionTyreRimVehInd>N</ProductionTyreRimVehInd>
+						</TyreAxleGroup>
+					</TyreAxleTable>
+				</AxleGroup>
+			</AxleTable>
+			<WLTPEmissionTestParamGroup>
+				<EmisTestMassWLTP>1451</EmisTestMassWLTP>
+				<RoadLoadCoefF0WLTP>114.4</RoadLoadCoefF0WLTP>
+				<RoadLoadCoefF1WLTP>0.173</RoadLoadCoefF1WLTP>
+				<RoadLoadCoefF2WLTP>0.03083</RoadLoadCoefF2WLTP>
+				<DrivingCycleClassCode>3b</DrivingCycleClassCode>
+				<CappedSpeedIndicator>N</CappedSpeedIndicator>
+			</WLTPEmissionTestParamGroup>
+			<EngineTable>
+				<EngineGroup>
+					<ManufacturerOfTheEngine>Volkswagen AG</ManufacturerOfTheEngine>
+					<EngineCodeAsMarkedOnTheEngine>DPB</EngineCodeAsMarkedOnTheEngine>
+					<WorkingPrincipleCode>E4</WorkingPrincipleCode>
+					<NumberOfCylinders>4</NumberOfCylinders>
+					<ArrangementOfCylindersCode>LI</ArrangementOfCylindersCode>
+					<EngineCapacity>1498</EngineCapacity>
+					<ElectricEngineIndicator>Y</ElectricEngineIndicator>
+					<FuelTable>
+						<FuelGroup>
+							<FuelCode>10</FuelCode>
+							<MaximumNetPower>96.00</MaximumNetPower>
+							<EngineSpeedMaximumNetPower>5000</EngineSpeedMaximumNetPower>
+							<EngineSpeedMaximumNetPowerMin>5000</EngineSpeedMaximumNetPowerMin>
+							<EngineSpeedMaximumNetPowerMax>6000</EngineSpeedMaximumNetPowerMax>
+							<MaximumSpeed>213</MaximumSpeed>
+							<SoundLevelStationary>77.00</SoundLevelStationary>
+							<SoundLevelStatEngineSpeed>3750</SoundLevelStatEngineSpeed>
+							<SoundLevelDriveBy>67.00</SoundLevelDriveBy>
+							<ExhaustEmissionLevelEuro>EURO 6 AP</ExhaustEmissionLevelEuro>
+							<NrBaseRegulActLastAmendMotVeh>715/2007*2018/1832AP</NrBaseRegulActLastAmendMotVeh>
+							<TestprocedureRdeGroup>
+								<TestprocRdeCompleteRdeNOx>60.0</TestprocRdeCompleteRdeNOx>
+								<TestprocRdeCompleteRdeNrOfPart>6.00</TestprocRdeCompleteRdeNrOfPart>
+								<TestprocRdeCompleteRdeExpPart>11</TestprocRdeCompleteRdeExpPart>
+								<TestprocRdeUrbanRdeNOx>60.0</TestprocRdeUrbanRdeNOx>
+								<TestprocRdeUrbanRdeNrOfPart>6.00</TestprocRdeUrbanRdeNrOfPart>
+								<TestprocRdeUrbanRdeExpPart>11</TestprocRdeUrbanRdeExpPart>
+							</TestprocedureRdeGroup>
+							<TestprocedureWLTPType1Group>
+								<TestprocWltpType1CO>158.8</TestprocWltpType1CO>
+								<TestprocWltpType1THC>24.2</TestprocWltpType1THC>
+								<TestprocWltpType1NMHC>20.6</TestprocWltpType1NMHC>
+								<TestprocWltpType1NOx>25.2</TestprocWltpType1NOx>
+								<TestprocWltpType1Particulates>0.0300</TestprocWltpType1Particulates>
+								<TestprocWltpType1NrOfPart>1.83</TestprocWltpType1NrOfPart>
+								<TestprocWltpType1ExPart>10</TestprocWltpType1ExPart>
+							</TestprocedureWLTPType1Group>
+							<TestprocedureWLTPCO2Group>
+								<WLTPLowCO2>163</WLTPLowCO2>
+								<WLTPMediumCO2>121</WLTPMediumCO2>
+								<WLTPHighCO2>106</WLTPHighCO2>
+								<WLTPExtraHighCO2>133</WLTPExtraHighCO2>
+								<WLTPCombinedCO2>126</WLTPCombinedCO2>
+							</TestprocedureWLTPCO2Group>
+							<TestprocedureWLTPFuelGroup>
+								<WLTPLowFuelConsumption>7.2</WLTPLowFuelConsumption>
+								<WLTPMediumFuelConsumption>5.3</WLTPMediumFuelConsumption>
+								<WLTPHighFuelConsumption>4.7</WLTPHighFuelConsumption>
+								<WLTPExtraHighFuelConsumption>5.9</WLTPExtraHighFuelConsumption>
+								<WLTPCombinedFuelCons>5.6</WLTPCombinedFuelCons>
+							</TestprocedureWLTPFuelGroup>
+						</FuelGroup>
+						<FuelGroup>
+							<MaximumContinuousRatedPower>60.00</MaximumContinuousRatedPower>
+							<ExhaustEmissionLevelEuro>EURO 6 AP</ExhaustEmissionLevelEuro>
+							<NrBaseRegulActLastAmendMotVeh>715/2007*2018/1832AP</NrBaseRegulActLastAmendMotVeh>
+							<MaxNetPowerElectricEngFuel>90.00</MaxNetPowerElectricEngFuel>
+						</FuelGroup>
+					</FuelTable>
+				</EngineGroup>
+			</EngineTable>
+			<TrailerBrakeTable>
+				<TrailerBrakeGroup>
+					<TrailerBrakeConnectionsCode>NON</TrailerBrakeConnectionsCode>
+				</TrailerBrakeGroup>
+			</TrailerBrakeTable>
+			<MechanicalCouplingTable>
+				<MechanicalCouplingGroup>
+					<MechanicalCouplingNumber>1</MechanicalCouplingNumber>
+					<TechPermMaxTowMassCentAxTrail>1400</TechPermMaxTowMassCentAxTrail>
+					<TechPermMaxTowMassUnbrTrailer>670</TechPermMaxTowMassUnbrTrailer>
+					<TechPermMaxStatVertMassCouplPt>80</TechPermMaxStatVertMassCouplPt>
+				</MechanicalCouplingGroup>
+			</MechanicalCouplingTable>
+			<TestFamilyIdentifiersTable>
+				<TestFamilyIdentifiersGroup>
+					<FamilyIdentifierCode>IP</FamilyIdentifierCode>
+					<FamilyIdentifierValue>IP-MQB37WZ_A0_0571-WVW-1</FamilyIdentifierValue>
+				</TestFamilyIdentifiersGroup>
+				<TestFamilyIdentifiersGroup>
+					<FamilyIdentifierCode>ATCT</FamilyIdentifierCode>
+					<FamilyIdentifierValue>AT-5Q0_0V_0299_000-WVW-1</FamilyIdentifierValue>
+				</TestFamilyIdentifiersGroup>
+				<TestFamilyIdentifiersGroup>
+					<FamilyIdentifierCode>PEMS</FamilyIdentifierCode>
+					<FamilyIdentifierValue>01-VWx-715W_CD_DPBA_FD7_0_A_1_0-000</FamilyIdentifierValue>
+				</TestFamilyIdentifiersGroup>
+				<TestFamilyIdentifiersGroup>
+					<FamilyIdentifierCode>RL</FamilyIdentifierCode>
+					<FamilyIdentifierValue>RL-DQ200_7F_20_001-WVW-1</FamilyIdentifierValue>
+				</TestFamilyIdentifiersGroup>
+				<TestFamilyIdentifiersGroup>
+					<FamilyIdentifierCode>PR</FamilyIdentifierCode>
+					<FamilyIdentifierValue>PR-VW_00221_00_000-WVW-1</FamilyIdentifierValue>
+				</TestFamilyIdentifiersGroup>
+				<TestFamilyIdentifiersGroup>
+					<FamilyIdentifierCode>EV</FamilyIdentifierCode>
+					<FamilyIdentifierValue>EV-CD_DGW_D_AVAAAB-WVW-1</FamilyIdentifierValue>
+				</TestFamilyIdentifiersGroup>
+			</TestFamilyIdentifiersTable>
+		</CocDataGroup>
+		<TechnicalAdditionalDataGroup>
+			<CodeEmissionCategory>36AP</CodeEmissionCategory>
+			<RemarksExceptions>7.2/8.2:+75 b.Anhängebetrieb*O.1:1700 bis 8% Steig.*techn.zul.Ges-Masse d.Zugkombination:3240kg*bis 8% Steig.:3540*Bei werkseitig montierter AHK: ESP m.spez.Fahrdyn.Stabi.Syst.f.Anh.Betr.f.Temp.100 km/h gem.9.Ausn.VO.z.STVO*ww.AHK lt.EGTG*</RemarksExceptions>
+			<CodeOfManufacturer>603</CodeOfManufacturer>
+			<CodeOfType>CPJ</CodeOfType>
+			<CodeOfVariantVersion>00165</CodeOfVariantVersion>
+			<CheckDigitCodeOfVariantVersion>5</CheckDigitCodeOfVariantVersion>
+			<FuelCodePowerSource>8</FuelCodePowerSource>
+		</TechnicalAdditionalDataGroup>
+	</Body>
+	<ns0:Signature>
+		<ns0:SignedInfo>
+			<ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<ns0:Reference URI="">
+				<ns0:Transforms>
+					<ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</ns0:Transforms>
+				<ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<ns0:DigestValue>CrGDnrVVH93Nd3/t8r9G3vBY9K0=</ns0:DigestValue>
+			</ns0:Reference>
+		</ns0:SignedInfo>
+		<ns0:SignatureValue>1VArqx/olPNN2BYGn/FMwhc608CFDnSjRIv0Po7j62gK7qK3a+sfSe7j+p1qh4tQFpzri7jQn1b0BLPxpgVYRZT+LmE4gAON2/2BobjskdC+t84MyIHCGMXmiLWjw282m1cj43ugJc5YVF/lUEVEVWlENF8rDN53GPL8olttb2pyOX5g8j8/JP7IvFGZoaLEyiiP+vFa6MfHHrdrSV5i1Gw8hHXfdWrj/leVckP3hS/JO+2AhzR7sGvkdTlGcdyj2T2OxXFluuepCuouMjLgqoGNtqCVQPtfVe/AVKU7RcXjPLtGCRq1Pqa/50Xg+HNce1icSZ3lN9WseXGnCoQAqg==</ns0:SignatureValue>
+		<ns0:KeyInfo>
+			<ns0:X509Data>
+				<ns0:X509SubjectName>CN=Systemuser TYKON VWPKI 82DCBBF752EFC92E,OU=1575,O=Volkswagen AG,C=DE</ns0:X509SubjectName>
+				<ns0:X509Certificate>MIIFajCCA1KgAwIBAgIDdMm9MA0GCSqGSIb3DQEBCwUAMFkxEzARBgoJkiaJk/IsZAEZFgNjb20xEzARBgoJkiaJk/IsZAEZFgN2d2cxFTATBgoJkiaJk/IsZAEZFgVWV1BLSTEWMBQGA1UEAxMNVlctQ0EtUFJPQy0wOTAeFw0yMjA5MDYxMTMxMDNaFw0yNjA5MDUxMTMxMDNaMGYxCzAJBgNVBAYTAkRFMRYwFAYDVQQKEw1Wb2xrc3dhZ2VuIEFHMQ0wCwYDVQQLEwQxNTc1MTAwLgYDVQQDEydTeXN0ZW11c2VyIFRZS09OIFZXUEtJIDgyRENCQkY3NTJFRkM5MkUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkKURklIxLt3Yrp7jWv4329UEU2Nj4aVvzjif6/HYrkDvNgpLxrNzuC3CPcew70Sdv39ZZebKdvY9LhaaiYNBUxeHW4xSFaMHxVlHNre/R3X2bAQ7yxIBSl0oM7szsCMY8222WgZk0oYaWJUei0Vr/vN3A2Kla9oLwn42ox53ZwwRmjZ2ed8/R6dJdJtS/CC1uUYtwxn9SjK/qRc1Ns+mEAyF+VuCDXUFrYsRtuhGOze5tW3PVBjhckd/7mAdfnV5nvI99n2tfoXvrJYq/nlQck0dWr2ZLuzciXT9rC65sD9EWD3zY8zuJzOfjIr13WOCsIVSZWRC4KcAuj8oHqC8ZAgMBAAGjggEsMIIBKDBABgNVHSUEOTA3BggrBgEFBQcDAgYIKwYBBQUHAwQGCCsGAQUFBwMHBgorBgEEAYI3CgMEBgsrBgEEAYI3CgMEATATBgNVHSMEDDAKgAhG0hlRN0Y4lTBEBggrBgEFBQcBAQQ4MDYwNAYIKwYBBQUHMAGGKGh0dHA6Ly9vY3NwLnZvbGtzd2FnZW4uZGUvVlctQ0EtUFJPQy0wOS8wHgYDVR0gBBcwFTATBhErBgEEAZkKjlsUAQECAgMBADA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3JsLnZvbGtzd2FnZW4uZGUvVlctQ0EtUFJPQy0wOS5DUkwwEQYDVR0OBAoECE3+TSCU3JMvMA4GA1UdDwEB/wQEAwIEsDAJBgNVHRMEAjAAMA0GCSqGSIb3DQEBCwUAA4ICAQCBoLIgqJqtEwshyh5YVb0IMRoT6IIUMu292iyubFH91Er8xNzFi3o3njhq3zbzLQvKQUVSeU/psxm/vqBVuumPUdxnZ8jseVpkKwmK3zvJcLRNbZ8KmtDppeWFEyt36WN6hh927zynT0657odJuw/ap6cz3LTeENo8MqHPkXvzYSfxoKjRh/eh2Ipy1cZvmH8Q/QmMk2h/upONGZi4dAV/bPgdKQvfm3DZVkgoE/Pvg1KQsXoCfM1TxW1bCEDLMy4YpMNlgTctHg6KCmqeFlAzonvgrG74vwHjlGGSUvAX4D+wGTruATAUZE4VaOk6Ert6MuQk6KxglHHnK/4Y7IXRqua7lLu2jJmKdfSwPEIZTbAMWhEWGBIKfIybgLIgFXzJZ1Gwf7K6/OnYjm5wbvw7nka1FjaIHmRBNGFqpA9zFpKFjz4aG9OGEiv2o2E6JL1qYRNug08hRKKTwUgypAbxkj9Y+cjcYMBSrRYCwg07S4TYV6U+D2M16XXmHChMllvjiBODXIuuWCysmlarG4CzaEy0HrUwG74MnyqIFskJKfmO5f4KqLy1xeuuYMT9QmCXcTQsO+GRjZy+ALumPZkiTqaIc+foVWo4VhZZUBzO+mt+EiZtw6w6Q7cYKQx7j7zkLJsvk6J9UC5xck+7gC4R+jbBCyNFlvJLqLTxlramuw==</ns0:X509Certificate>
+			</ns0:X509Data>
+		</ns0:KeyInfo>
+	</ns0:Signature>
+</InitialVehicleInformation>
