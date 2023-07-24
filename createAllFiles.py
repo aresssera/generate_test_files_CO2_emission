@@ -12,7 +12,7 @@ df = df.astype({"#FuelCode3": str}, errors='raise')
 # all attributes which must be replaced
 valuesToReplace = [col for col in df.columns if col.startswith('#')]
 
-i = 1
+i = 0
 for template in df['Template'].unique():
 
   print(i, ": ", template)
@@ -36,6 +36,14 @@ for template in df['Template'].unique():
           element.text = row[att]
 
     # save modified XML file
-    tree.write('outputs/' + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
+    folder = ''
+    if i < 1000:
+      folder = 'outputs1/'
+    elif i < 2000:
+      folder = 'outputs2/'
+    else:
+      folder = 'outputs3/'
+
+    tree.write(folder + row['#VIN'] + '.xml', encoding='utf-8', xml_declaration=True)
 
   i += 1
