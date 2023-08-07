@@ -28,12 +28,13 @@ for template in df['Template'].unique():
 
     for att in valuesToReplace:
 
+      attValue = row[att]
+      if attValue == '-':
+        continue
+
       for element in root.iter():
-        #if element.text and element.text.startswith(att):
         if element.text == att:
-          #if att == '-':
-          #  print("empty")
-          element.text = row[att]
+          element.text = attValue
 
     # save modified XML file
     folder = ''
